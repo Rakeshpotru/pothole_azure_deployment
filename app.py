@@ -61,6 +61,10 @@ def draw_detections(image, detections,shape):
         draw.text((x1, y1), label, font=font, fill=(255, 255, 255))
     
     return image
+
+@app.route('/health', method=['GET'])
+def chec_health():
+    return "I am running fine"
     
 @app.route('/upload', methods=['POST'])
 def upload_file():
