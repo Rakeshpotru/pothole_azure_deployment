@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e0e51b82-37a4-4fc7-94c5-1f046b9b92fd/resourceGroups/ai-pothole/providers/Microsoft.Web/sites/aipothole",
+    "appService.deploySubpath": "."
+}
